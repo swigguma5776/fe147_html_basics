@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- The DOCTYPE is the declaration saying we are coding in HTML -->
+<html>
+
+<head>
+    <!-- The head contains META data aka configuration data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- charset & viewport meta data required because that's how browser is interpretting web page -->
+    <meta name="description" content="This is our really cool first webpage!">
+    <meta name="keywords" content="HTML, Web Development, Frontend Engineering, Hello Message, Portfolio">
+    <meta name="author" content="Alex Swiggum">
+    <!-- These meta data properties are for SEO (Search Engine Optimization) -->
+    <title>Welcome to SE147 COOL PAGE</title>
+</head>
+
+<body>
+    <h1>Digital <i>Theater</i></h1>
+    <h3>Enter</h3>
+    <h6>Come Hither</h6>
+    <!-- Header Font Sizes tags -->
+    <!-- em, b, i, strong are Text Formatting tags -->
+    <p>Hello <em>World</em>! My name <i>IS</i> <strong>Alex</strong></p>
+    <!-- paragraph tag -->
+    <br> 
+    <!-- break element aka enter -->
+    <h3>My Summer Todo List &amp; Just Fun Things</h3>
+    <hr>
+    <!-- horizontal rule aka line across your page -->
+    <img src="./static/boat_image_sm.jpg" alt="boating image" >
+    <!-- this is a resource we have saved to our computer/memory. important to resize this for downloading capabiliites and not make our
+    computer do more work than it needs to -->
+    <ul>
+        <li>Kayak</li>
+        <li>Hiking</li>
+        <li>Basketball</li>
+        <li>Drinking</li>
+        <li>Boating</li>
+    </ul>
+    <hr>
+    <h3>My Top 3 Summer Songs</h3>
+    <!-- ol, ul are parent elements/divs -->
+    <img src="https://www.xsnoize.com/wp-content/uploads/2023/04/Blondshell-album-art_edited.jpg" alt="BlondShell Album Cover" style="width:500px;">
+    <!-- this is an external image source making an api call -->
+    <ol>
+        <!-- li aka list items are children elements/divs -->
+        <li><a href="https://open.spotify.com/track/3NfastUCFxLepBhv7UGSqR" target="_blank">Dockett</a> by BlondShell</li>
+        <li>Good Luck, Babe by Chappell Roan</li>
+        <li>Love Song by Softcult</li>
+    </ol>
+    
+    <br>
+    <hr>
+    
+    <!-- Adding Table to our Pages for Data Display -->
+    <h3>Languages &amp; Frameworks we will know</h3>
+    <table border="1" style="width:300px;">
+        <th colspan="2">Cool Tech Stack</th>
+        <tr>
+            <!-- td or table data think of them like columns -->
+            <td>Language</td>
+            <td>Framework</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Flask</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>React</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Bootstrap</td>
+        </tr>
+    </table>
+    
+    <!-- Adding Quotes to our Page. Pretty Niche -->
+    
+    <blockquote cite="https://coolquoteresource.com">
+        "I'm tired of this grandpa. Well that's just too damn bad."
+    </blockquote>
+    
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <p>"Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced."</p>
+        <footer>—Aldous Huxley, <cite>Brave New World</cite></footer>
+      </blockquote>
+    
+    <p>Mean Girls is iconic and one of the best movies lines to exist is <q>She doesn't even go here</q></p>
+    
+    <!-- pre stands for preserve and will preserve the format of your code on the page -->
+    <pre><code>
+        students=['Kayla', 'Farzin', 'Chris', 'Victor']
+        for student in students:
+            print(student)
+    </code></pre>
+    
+    
+    <!-- Adding Multi Media Elements to our Page -->
+    
+    <audio controls autoplay>
+        <source src="./static/invalid_keypress.mp3" type="audio/mp3">
+        Your Browser does not support this audio content.
+    </audio>
+    <br>
+    <!-- autplay automatically plays the video -->
+    <!-- control allows users to control playback -->
+    <!-- loop automatically loops the video -->
+    <video width='500px' autoplay controls loop>
+        <source src="./static/Praline-Tin-GIF-Official_Proxy.mp4" type="video/mp4">
+        Your Browser does not support this video content.
+    </video>
+    <br>
+    
+    
+    <iframe width='500' height='300' src="https://www.youtube.com/embed/XO_DTLq-YM0" 
+    allow="acceleromter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">  
+    </iframe>
+    
+    
+    <br>
+    <a href="https://www.linkedin.com/in/alex-swiggum-profile/" target="_blank">Check Out My LinkedIn to learn more</a>
+    <p> &copy; Copyright 2024 SE147</p>
+
+</body>
+
+
+</html>
